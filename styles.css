@@ -1,0 +1,51 @@
+body{
+    style: flex;
+    flex-direction: column;
+    margin:0;
+}
+
+.hero{
+    background-color: #1F2937;
+}
+
+.title{
+    font-weight: extra-bold;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.head, .headmid {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;    
+}
+
+.headmid{
+    margin-top:100px;
+    height: 200px;
+}
+
+
+.headleft{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    
+}
+
+ul{
+    display: flex;
+    margin:0;
+    padding:0;
+    list-style-type: none ;
+    
+}
+
+img{
+    flex:1;
+}
+
+button{
+    margin-top: auto;
+    width:75px;
+}
