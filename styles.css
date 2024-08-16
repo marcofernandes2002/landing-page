@@ -3,10 +3,11 @@
 }
 
 body{
-    style: flex;
+    display: flex;
     flex-direction: column;
     margin:0;
     font-family: sans-serif;
+    flex-wrap: wrap;
     
 }
 
@@ -50,6 +51,7 @@ body{
 .headleft{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     flex:1;
    
 }
@@ -58,6 +60,7 @@ body{
     display: flex;
     flex:1;
     justify-content: flex-start;
+    flex-wrap: wrap;
     
 }
 
@@ -78,8 +81,16 @@ ul{
     
 }
 
+a{
+
+}
+
 .firstimage, .secondimage{
 width:100%;
+}
+
+.secondimage{
+   height:300px;
 }
 
 button{
@@ -151,6 +162,7 @@ button{
 .quote, .credit{
 display: flex;
 justify-content: flex-end;
+flex-wrap: wrap;
 }
 
 .quote{
@@ -167,6 +179,7 @@ justify-content: flex-end;
     justify-content: center;
     align-items: center;
     padding:100px;
+    flex-wrap: wrap;
     
 }
 
@@ -189,3 +202,13 @@ justify-content: flex-end;
 p{
     margin: 0;
 }
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
