@@ -82,7 +82,8 @@ ul{
 }
 
 a{
-
+    color:white;
+    text-decoration: none;
 }
 
 .firstimage, .secondimage{
@@ -101,8 +102,12 @@ button{
     color: white;
     margin-top: auto;
     border-radius: 10px;
-    
-  
+    border: none;
+}
+
+#buttonbottom{
+    border-style:solid;
+    border-color: white;
 }
 
 .rando{
