@@ -85,7 +85,7 @@ width:100%;
 button{
     
     height:35px;
-    width:20%;
+    width:70px;
     background-color: #3882F6;
     color: white;
     margin-top: auto;
@@ -160,4 +160,32 @@ justify-content: flex-end;
 
 .credit{
     font-weight: bold;
+}
+
+.fourthsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:100px;
+    
+}
+
+.fourthcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #3882F6;
+    padding: 20px 100px;
+    gap: 20px;
+    border-radius: 10px;
+    color: white;
+    align-self: stretch;
+}
+
+#boldtitle{
+    font-weight: bold;
+}
+
+p{
+    margin: 0;
 }
