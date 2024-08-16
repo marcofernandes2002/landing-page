@@ -13,6 +13,11 @@ body{
 .hero{
     background-color: #1F2937;
     padding: 50px 150px 150px 150px;
+    display: flex;
+    flex-flow: column wrap;
+    gap:30px;
+    
+
 }
 
 .title{
@@ -25,10 +30,10 @@ body{
 
 .head{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     font-size: 24px;
     color: #F9FAF8;
-    height: 72px;
     
 }
 
@@ -46,12 +51,14 @@ body{
     display: flex;
     flex-direction: column;
     flex:1;
+   
 }
 
 .headright{
     display: flex;
     flex:1;
     justify-content: flex-start;
+    
 }
 
 .firsttext{
@@ -67,6 +74,7 @@ ul{
     padding:0;
     list-style-type: none;
     gap: 30px;
+    flex-wrap: wrap;
     
 }
 
@@ -119,3 +127,37 @@ button{
 
 }
 
+.thirdsection{
+
+    background-color: #E5E7EB;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.contentorthird{
+    
+    padding: 100px;
+    max-width:800px;
+   
+    
+}
+
+
+.quote, .credit{
+display: flex;
+justify-content: flex-end;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+}
+
+.credit{
+    font-weight: bold;
+}
